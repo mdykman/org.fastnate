@@ -1,0 +1,12 @@
+rootProject.name = 'fastnate-base'
+include ':fastnate-data'
+include ':fastnate-generator'
+//include ':fastnate-maven-plugin'
+//include ':fastnate-maven-test'
+include ':fastnate-examples'
+
+project(':fastnate-data').projectDir = "$rootDir/fastnate-data" as File
+project(':fastnate-generator').projectDir = "$rootDir/fastnate-generator" as File
+//project(':fastnate-maven-plugin').projectDir = "$rootDir/fastnate-maven-plugin" as File
+//project(':fastnate-maven-test').projectDir = "$rootDir/fastnate-maven-test" as File
+project(':fastnate-examples').projectDir = "$rootDir/fastnate-examples" as File

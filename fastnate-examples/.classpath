@@ -2,19 +2,8 @@
 <classpath>
 	<classpathentry kind="src" output="target/classes" path="src/main/java">
 		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
 			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
@@ -22,5 +11,43 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="output" path="target/classes"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="src" path="/fastnate-data"/>
+	<classpathentry kind="src" path="/fastnate-generator"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/projectlombok/lombok/1.16.8/lombok-1.16.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/junit/junit/4.12/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/slf4j/slf4j-jdk14/1.7.7/slf4j-jdk14-1.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/hibernate/hibernate-entitymanager/5.0.7.Final/hibernate-entitymanager-5.0.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/hibernate/hibernate-validator/5.2.3.Final/hibernate-validator-5.2.3.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/javax/el/javax.el-api/2.2.5/javax.el-api-2.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/com/h2database/h2/1.4.192/h2-1.4.192.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/assertj/assertj-core/3.4.1/assertj-core-3.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/net/sf/supercsv/super-csv/2.4.0/super-csv-2.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/hibernate/hibernate-core/5.0.7.Final/hibernate-core-5.0.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/1180a90fbad732b60fb728a6bbe8fcb3151423d7/javassist-3.18.2-GA.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/7163084913aa7399e4ce2cbc3ee5c00ac2b1f35f/javassist-3.18.2-GA-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/4.3.11.Final/536ac0021240d97db99c7d2983067cef1a6f3af5/hibernate-core-4.3.11.Final.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/4.3.11.Final/404c69aa1781893987d426f4eec08020ae1f41a0/hibernate-core-4.3.11.Final-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.1.3.GA/64499e907f19e5e1b3fdc02f81440c1832fe3545/jboss-logging-3.1.3.GA.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.1.3.GA/4d2c4df2c1a1b2d2f9201f6d580d7d19ccf8cbdf/jboss-logging-3.1.3.GA-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging-annotations/1.2.0.Beta1/2f437f37bb265d9f8f1392823dbca12d2bec06d6/jboss-logging-annotations-1.2.0.Beta1.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging-annotations/1.2.0.Beta1/360b782ab568672ea968726ddf209e753c860e1a/jboss-logging-annotations-1.2.0.Beta1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/1f9fef7a9fcbb41cc390fc370a291cf30729e094/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/873910090351ef6339d2c6c231072edbd14f3a13/jboss-transaction-api_1.2_spec-1.0.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/4.0.5.Final/2a581b9edb8168e45060d8bad8b7f46712d2c52c/hibernate-commons-annotations-4.0.5.Final.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/4.0.5.Final/98339e44338b43de01cb5ae0b169447d17ae00/hibernate-commons-annotations-4.0.5.Final-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/1.1.0.Final/e84a2122e76f0b6503be78094ddf2108057ac15f/jandex-1.1.0.Final.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/1.1.0.Final/cd042b769b296fd1bc20ca5120824caa42b6c9ed/jandex-1.1.0.Final-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.fastnate.data.EntityImporterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-09-08T19:35:20" hostname="dtdvmdykman" time="0.259">
+  <properties/>
+  <testcase name="testEmbedded" classname="org.fastnate.data.EntityImporterTest" time="0.259"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Sep 08, 2016 3:35:20 PM org.fastnate.data.EntityImporter setup
+INFO: Searching for implementations of DataProvider
+Sep 08, 2016 3:35:20 PM org.reflections.Reflections scan
+INFO: Reflections took 50 ms to scan 2 urls, producing 8 keys and 15 values 
+Sep 08, 2016 3:35:20 PM org.fastnate.data.EntityImporter importData
+INFO: Using H2Dialect for SQL generation.
+Sep 08, 2016 3:35:20 PM org.fastnate.data.csv.AbstractCsvReader readImportFiles
+INFO: Reading entities from src\test\data\csv\testentities.csv...
+Sep 08, 2016 3:35:20 PM org.fastnate.data.csv.AbstractCsvReader openCsvListReader
+INFO: No BOM detected. Assuming UTF-8 as encoding
+Sep 08, 2016 3:35:20 PM org.fastnate.data.EntityImporter importData
+INFO: Generated SQL for class org.fastnate.data.test.CsvTestData
+Sep 08, 2016 3:35:20 PM org.fastnate.data.EntityImporter importData
+INFO: Generated SQL for class org.fastnate.data.test.TestData
+Sep 08, 2016 3:35:20 PM org.fastnate.data.EntityImporter importData
+INFO: Generated SQL for class org.fastnate.data.test.SuccessorData
+]]></system-err>
+</testsuite>

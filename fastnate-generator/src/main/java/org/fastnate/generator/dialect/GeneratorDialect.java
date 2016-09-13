@@ -5,6 +5,7 @@ import java.sql.Timestamp;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -185,7 +186,12 @@ public abstract class GeneratorDialect {
 	public String createBlobExpression(final byte[] blob) {
 		throw new IllegalArgumentException("Blobs are not supported by " + getClass().getSimpleName());
 	}
+	
+	public String createUUIDExpression(final UUID uuid) {
+		throw new IllegalArgumentException("UUIDs are not supported by " + getClass().getSimpleName());
+	}
 
+	
 	/**
 	 * Creates the hex presentation of the given blob.
 	 *

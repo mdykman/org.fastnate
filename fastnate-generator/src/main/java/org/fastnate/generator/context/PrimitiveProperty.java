@@ -5,6 +5,7 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.UUID;
 
 import javax.persistence.Basic;
 import javax.persistence.Column;
@@ -22,6 +23,7 @@ import org.fastnate.generator.converter.LobConverter;
 import org.fastnate.generator.converter.NumberConverter;
 import org.fastnate.generator.converter.SerializableConverter;
 import org.fastnate.generator.converter.StringConverter;
+import org.fastnate.generator.converter.UUIDConverter;
 import org.fastnate.generator.converter.UnsupportedTypeConverter;
 import org.fastnate.generator.converter.ValueConverter;
 import org.fastnate.generator.dialect.GeneratorDialect;
@@ -58,6 +60,7 @@ import lombok.Getter;
  * @author Tobias Liefke
  * @author Andreas Penski
  */
+
 @Getter
 public class PrimitiveProperty<E, T> extends SingularProperty<E, T> {
 
@@ -81,6 +84,9 @@ public class PrimitiveProperty<E, T> extends SingularProperty<E, T> {
 			final Class<T> targetType, final boolean mapKey) {
 		if (attribute.isAnnotationPresent(Lob.class)) {
 			return (ValueConverter<T>) new LobConverter();
+		}
+		if (UUID.class == targetType) {
+			return (ValueConverter<T>) new UUIDConverter();
 		}
 		if (String.class == targetType) {
 			return (ValueConverter<T>) new StringConverter(attribute, mapKey);

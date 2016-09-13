@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -137,6 +138,14 @@ public class MySqlDialect extends GeneratorDialect {
 			result.append(c);
 		}
 		return result.append('\'').toString();
+	}
+	
+	@Override
+	public String createUUIDExpression(final UUID uuid) {
+		final StringBuilder sb = new StringBuilder("unhex(replace('");
+		sb.append(uuid.toString()).append("','-',''))");
+		return sb.toString();
+
 	}
 
 }

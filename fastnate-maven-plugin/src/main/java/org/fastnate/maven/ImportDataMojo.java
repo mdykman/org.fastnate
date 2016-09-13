@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
-import org.apache.maven.artifact.DependencyResolutionRequiredException;
+//import org.apache.maven.artifact.DependencyResolutionRequiredException;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
@@ -129,7 +129,7 @@ public class ImportDataMojo extends AbstractMojo {
 
 	private URLClassLoader buildClassLoader() throws MojoExecutionException {
 		final List<URL> projectClasspathList = new ArrayList<>();
-		try {
+	//	try {
 			for (final Object element : this.project.getCompileClasspathElements()) {
 				try {
 					projectClasspathList.add(new File(element.toString()).toURI().toURL());
@@ -137,9 +137,10 @@ public class ImportDataMojo extends AbstractMojo {
 					throw new MojoExecutionException(element + " is an invalid classpath element", e);
 				}
 			}
-		} catch (final DependencyResolutionRequiredException e) {
-			throw new MojoExecutionException("Could not find project dependencies", e);
-		}
+	//	}
+	//	catch (final DependencyResolutionRequiredException e) {
+	//		throw new MojoExecutionException("Could not find project dependencies", e);
+	//	}
 		return new URLClassLoader(projectClasspathList.toArray(new URL[0]));
 	}
 

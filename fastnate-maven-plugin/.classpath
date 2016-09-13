@@ -2,29 +2,8 @@
 <classpath>
 	<classpathentry kind="src" output="target/classes" path="src/main/java">
 		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
 			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
@@ -32,5 +11,52 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="output" path="target/classes"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="src" path="/fastnate-data"/>
+	<classpathentry kind="src" path="/fastnate-generator"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-api/3.0/98f886f59bb0e69f8e86cdc082e69f2f4c13d648/maven-plugin-api-3.0.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-api/3.0/7c7b4c0b160670d1642bf60f158d29affea0c29/maven-plugin-api-3.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-build-api/0.0.7/e6ba5cd4bfd8de00235af936e7f63eb24ed436e6/plexus-build-api-0.0.7.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-build-api/0.0.7/1810e0cc9652071d53191f13576489ad66327e49/plexus-build-api-0.0.7-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-model/3.0/24ce598c94a78341c42556fe9192dad6a2822405/maven-model-3.0.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-model/3.0/3790df09185e73f5bc10bc2fe8964c83a1b7011/maven-model-3.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/2b8019b6249bb05d81d3a3094e468753e2b21311/slf4j-api-1.7.7.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/acd62e31cc314266e73eebed0b6dd7ea974a0ed/slf4j-api-1.7.7-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/net.sf.supercsv/super-csv/2.4.0/17f8708c929029dde48bc298deaf3c7ae2452d3/super-csv-2.4.0.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/net.sf.supercsv/super-csv/2.4.0/ee5c3d3b967056f2bc088b787a365d0da6208666/super-csv-2.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.10/c7f4ea230aedc757ca1499ebcfb2953c81cf8b67/reflections-0.9.10.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.10/606b8587dab0bf1776b896003f2a2fa0470bb105/reflections-0.9.10-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/projectlombok/lombok/1.16.8/lombok-1.16.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.4/21f22fdd8e8494f2d7585088ed63497d05e54333/plexus-component-annotations-1.5.4.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.4/5a385483228ecfa4149cd33fbddbae067cf701f0/plexus-component-annotations-1.5.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-classworlds/2.2.3/93b34d7a40ed56fe33274480c5792b656d3697a9/plexus-classworlds-2.2.3.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-classworlds/2.2.3/f82e2bfb2cc8bae40acacce3e1c0ee52bf65a45d/plexus-classworlds-2.2.3-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.3/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-2.0.3.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.3/936f4430478909ed7b138d42f9ad73c919a87b26/jsr305-2.0.3-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/1180a90fbad732b60fb728a6bbe8fcb3151423d7/javassist-3.18.2-GA.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.2-GA/7163084913aa7399e4ce2cbc3ee5c00ac2b1f35f/javassist-3.18.2-GA-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/annotations/2.0.1/9ef6656259841cebfb9fb0697bb122ada4485498/annotations-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.0.7.Final/3665e33895fa3d9c34e8330743508a2227d3b0db/hibernate-core-5.0.7.Final.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.0.7.Final/68580084ddb39aeba3ec45dd354fb51d167f7ac9/hibernate-core-5.0.7.Final-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.0.b2/3136ca936f64c9d68529f048c2618bd356bf85c9/xml-apis-1.0.b2.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.0.b2/d8525661c5a0a05702fa41873d250d135031ec25/xml-apis-1.0.b2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.0/c29cfa43ce2ba09975a07c40d7241655d7c2fa29/maven-artifact-3.0.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.0/4a67200ab7f3b194230f18717db609b5a3dc7867/maven-artifact-3.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/2.0.5/7841ba10ea46c9611ce702c3833ff9fccc8ae6eb/plexus-utils-2.0.5.jar" sourcepath="C:/Users/mdykman/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/2.0.5/9fa5995004da6efeb01122240ea3c935f0a4a33b/plexus-utils-2.0.5-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>
