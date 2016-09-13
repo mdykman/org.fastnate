@@ -1,4 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: FastNate Data Importer
-Implementation-Version: 1.3.0-SNAPSHOT
-
